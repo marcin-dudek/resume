@@ -2,8 +2,8 @@
 
 baseURL = "http://example.org/"
 languageCode = "en"
-title = ""
-theme = "hugo-devresume-theme"
+title = "Marcin Dudek Resume"
+theme = "resume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
@@ -12,8 +12,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
 [params]
-    author = "CowboySmall"
-    description = "DevResume - Bootstrap 4 Resume/CV Template For Software Developers"
+    author = "marcin-dudek"
+    description = "MarcinDudek resume based on DevResume"
 
 
     primaryColor = "#54B689"
@@ -100,12 +100,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
         [[params.education.list]]
         degree = "MSc in Computer Science"
-        university = "University College London"
-        dates = "2010 - 2011"
-        [[params.education.list]]
-        degree = "BSc Maths and Physics"
-        university = "Imperial College London"
-        dates = "2007 - 2010"
+        university = "Technical University of Wroclaw"
+        dates = "2004 - 2010"
 
 
 
@@ -154,16 +150,12 @@ googleAnalytics = "UA-XXXXXXX-Y"
 
 
     [params.interests]
-        enable = true
+        enable = false
 
         [[params.interests.list]]
         name = "Gaming"
         [[params.interests.list]]
-        name = "Snowboarding"
-        [[params.interests.list]]
-        name = "Photography"
-        [[params.interests.list]]
-        name = "Travelling"
+        name = "Learning new stuff"
 
 
 
