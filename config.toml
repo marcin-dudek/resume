@@ -3,7 +3,7 @@
 baseURL = "http://example.org/"
 languageCode = "en"
 title = "Marcin Dudek Resume"
-theme = "hugo-devresume-theme"
+theme = "resume-theme"
 googleAnalytics = "UA-XXXXXXX-Y"
 
 
