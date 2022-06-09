@@ -114,14 +114,17 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.awards.list]]
-        name = "Award Lorem Ipsum"
-        body = "Microsoft lorem ipsum"
-        date = "2019"
+        name = "Azure Solutions Architect Expert"
+        body = "Microsoft"
+        date = "2021"
         [[params.awards.list]]
-        name = "Award Donec Sodales"
-        body = "Oracle Aenean"
-        date = "2017"
-
+        name = "AWS Solutions Architect Associate"
+        body = "Amazon"
+        date = "2020"
+        [[params.awards.list]]
+        name = "Terchnology Architect"
+        body = "Avanade"
+        date = "2020"
 
 
 
@@ -179,58 +182,68 @@ googleAnalytics = "UA-XXXXXXX-Y"
         enable = true
 
         [[params.experience.list]]
-        title = "Senior Software Engineer"
-        dates = "2019 - Present"
-        company = "Google"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel. Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-        [[params.experience.list.items]]
-        details = "Etiam ultricies nisi vel augue."
+        title = "Cloud Solution Architect"
+        dates = "Jun 2020 · present"
+        company = "Avanade"
+        details = ""
 
         [[params.experience.list]]
-        title = "Lead Software Developer"
-        dates = "2016 - 2019"
-        company = "Apple"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Donec pede justo, fringilla vel."
-        [[params.experience.list.items]]
-        details = "Lorem ipsum dolor sit amet, consectetuer."
-        [[params.experience.list.items]]
-        details = "Aenean commodo ligula eget dolor."
-
-        [[params.experience.list]]
-        title = "Senior Software Developer"
-        dates = "2014 - 2016"
-        company = "Dropbox"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
-
-        [[params.experience.list]]
-        title = "Senior Developer"
-        dates = "2013 - 2014"
-        company = "Uber"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
-
-        [[params.experience.list]]
-        title = "Backend Developer"
-        dates = "2014 - 2016"
-        company = "Amazon"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus."
+        title = "SISA Architect"
+        dates = "Jan 2022 · present"
+        company = "Avanade"
+        details = ""
 
         [[params.experience.list]]
         title = "Frontend Developer"
-        dates = "2013 - 2014"
-        company = "Startup"
-        details = "Role description goes here ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus."
+        dates = "Mar 2020 · May 2020"
+        company = "Avanade"
+        details = ""
 
+        [[params.experience.list]]
+        title = "Project Lead/Tech Lead"
+        dates = "Sep 2018 · Mar 2020"
+        company = "Avanade"
+        details = ""
+        
+        [[params.experience.list]]
+        title = "Senior Consultant"
+        dates = "Aug 2016 · Sep 2017"
+        company = "Infusion"
+        details = ""
 
+        [[params.experience.list]]
+        title = "Senior Consultant"
+        dates = "Jan 2016 · Aug 2016"
+        company = "Infusion"
+        details = ""
 
+        [[params.experience.list]]
+        title = "Consultant"
+        dates = "Nov 2013 · Dec 2015"
+        company = "Infusion"
+        details = ""
 
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Jun 2012 · Oct 2013"
+        company = "Jetshop"
+        details = ""
 
+        [[params.experience.list]]
+        title = "Software Engineer"
+        dates = "Jul 2009 · May 2012"
+        company = "Tieto Poland"
+        details = "Developing and maintaining Windows applications for leading phone manufacturer. Design and development framework like components for windows applications, with strong focus on testability and composable design."
+        [[params.experience.list.items]]
+        details = "Tech: .NET Framework 2.0/3.5, NUnit, TypeMock Isolator "
 
-
-
+        [[params.experience.list]]
+        title = "Software Developer"
+        dates = "Feb 2008 · Jun 2009"
+        company = "anixe Poland"
+        details = "Developing and maintaining web application for LOT - Polish airlines. Integrated standalone insurance booking system."
+        [[params.experience.list.items]]
+        details = "Tech: .NET Framework 1.1/2.0, ASP.NET, XML, XSL, XSLT, jQuery"
 
 
 
@@ -253,16 +266,8 @@ googleAnalytics = "UA-XXXXXXX-Y"
         tagline = "You can use this section for your side projects. Cras dapibus. Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim."
 
 
-
-
-
-
-
-
-
-
     [params.information]
-        enable = true
+        enable = false
 
         [[params.information.list]]
         title = "Papers"
@@ -274,12 +279,6 @@ googleAnalytics = "UA-XXXXXXX-Y"
         [[params.information.list]]
         title = "Interests"
         details = "Climbing, Snowboarding, Photography, Travelling"
-
-
-
-
-
-
 
 
     [params.social]
@@ -297,8 +296,5 @@ googleAnalytics = "UA-XXXXXXX-Y"
         icon = "fab fa-twitter-square"
         url = "//twitter.com/manekd"
         title = "@manekd"
-
-
-
 
 
