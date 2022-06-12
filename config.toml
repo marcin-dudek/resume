@@ -1,10 +1,10 @@
 # Page settings
 
-baseURL = "http://example.org/"
+baseURL = "https://marcin-dudek.github.io/resume"
 languageCode = "en"
 title = "Marcin Dudek Resume"
 theme = "resume-theme"
-googleAnalytics = "UA-XXXXXXX-Y"
+googleAnalytics = "G-B81J6WSQJR"
 
 
 
@@ -203,31 +203,85 @@ googleAnalytics = "UA-XXXXXXX-Y"
         title = "Project Lead/Tech Lead"
         dates = "Sep 2018 · Mar 2020"
         company = "Avanade"
-        details = ""
+        details = "One of the world's largest pharmaceutical companies. The company develops and produces medicines and vaccines for a wide range of medical disciplines. Client engaged Avanade to build multiple applications for the Operations Centers which enable digital collaboration, standardization of manufacturing processes and provide insights into those."
+        [[params.experience.list.items]]
+        details = "Managing team of 20+ developers and QAs"
+        [[params.experience.list.items]]
+        details = "Helping shaping priorities and lead successful delivery, helping improving processes"
+        [[params.experience.list.items]]
+        details = "Helping shaping and execute microservice architecture"
+        [[params.experience.list.items]]
+        details = "Proposing technologies, tools and frameworks, helping client optimize infrastructure costs"
+        [[params.experience.list.items]]
+        details = "Creating and improving continues integration and continues development for application and services"
+        [[params.experience.list.items]]
+        details = "Azure DevOps, Docker, Kubernetes, C#, .NET Core, Git, PowerShell, awk"
         
+        [[params.experience.list]]
+        title = "Team Lead/Tech Lead"
+        dates = "Sep 2018 · Mar 2020"
+        company = "Avanade"
+        details = "One of the world's largest pharmaceutical companies. The company develops and produces medicines and vaccines for a wide range of medical disciplines. Client engaged Avanade to build multiple applications for the Operations Centers which enable digital collaboration, standardization of manufacturing processes and provide insights into those."
+        [[params.experience.list.items]]
+        details = "Leading team of 5+ developers and QAs"
+        [[params.experience.list.items]]
+        details = "Discussing team priorities, shaping sprints, monitoring and reporting progress, requirements clarification, helping improving processes"
+        [[params.experience.list.items]]
+        details = "Shaping and execute microservice architecture"
+        [[params.experience.list.items]]
+        details = "Helping picking up tools and frameworks for project"
+        [[params.experience.list.items]]
+        details = "Creating and improving continues integration and continues development for application and services"
+        [[params.experience.list.items]]
+        details = "Tech: C#, .NET Core, Azure DevOps, Docker, Kubernetes, Git, PowerShell, XUnit, NSubstitute, UWP"
+
         [[params.experience.list]]
         title = "Senior Consultant"
         dates = "Aug 2016 · Sep 2017"
         company = "Infusion"
-        details = ""
+        details = "Developer in electronic-trading business which is used to execute orders on behalf of clients in Equities, Listed Derivatives (Futures and Options) and FX markets around the globe. Team is responsible for delivery of all technical aspects of the platform, the core framework and supporting services and tools."
+        [[params.experience.list.items]]
+        details = "Creating and designing framework to write scenarios for acceptance and regression testing."
+        [[params.experience.list.items]]
+        details = "Creating and improving CI/CD process for applications."
+        [[params.experience.list.items]]
+        details = "Development and maintenance of electronic trading and ticket routing applications."
+        [[params.experience.list.items]]
+        details = "Tech: C#, .NET 4.6, Moq, NUnit, TeamCity, DryIoC, LBM Messaging, Specflow, Powershell, Octopus"
 
         [[params.experience.list]]
         title = "Senior Consultant"
         dates = "Jan 2016 · Aug 2016"
         company = "Infusion"
-        details = ""
+        details = "Involved in development of Strategic Risk Systems under one vertical stack and code base, in conjunction with building common interfaces to the new stack."
+        [[params.experience.list.items]]
+        details = "Development web application for batch monitoring."
+        [[params.experience.list.items]]
+        details = "Implementation of a common set of libraries used for feeding data in multiple risk systems."
+        [[params.experience.list.items]]
+        details = "Tech: C#, .NET, Autofac, Windows Services, FakeItEasy, WCF, WebAPI, AngularJS, JavaScript, TypeScript, CSS"
 
         [[params.experience.list]]
         title = "Consultant"
         dates = "Nov 2013 · Dec 2015"
         company = "Infusion"
-        details = ""
+        details = "Engaged to help design, build and deliver components of distributed risk calculation engine. It consists of several major subsystems i.e. WCF services, distributed calculation processes and distributed cache."
+        [[params.experience.list.items]]
+        details = "Optimized build and deployment process with our application and decrease time from commit to deploy to environment."
+        [[params.experience.list.items]]
+        details = "Implementated and maintenaned Addin for Excel which allowed to retrieve data from REST service."
+        [[params.experience.list.items]]
+        details = "Designed and implementated authorization in framework used in several WCF services"
+        [[params.experience.list.items]]
+        details = "Tech: C#, .NET 4.0, NUnit, Rhino Mocks, Entity Framework, Tibco EMS, WCF, SQL Server 2008, SASS"
 
         [[params.experience.list]]
         title = "Software Engineer"
         dates = "Jun 2012 · Oct 2013"
         company = "Jetshop"
-        details = ""
+        details = "Developing and maintaining e-commerce platform with administration application. Implementation SEO focused changes."
+        [[params.experience.list.items]]
+        details = "Tech: ASP.NET 3.5/4.0, jQuery, NUnit, Moq, SQL Server 2008"
 
         [[params.experience.list]]
         title = "Software Engineer"

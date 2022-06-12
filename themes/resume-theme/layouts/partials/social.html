@@ -1,15 +1,28 @@
+<div class="resume-footer text-center">
 
-                <div class="resume-footer text-center">
+    <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
+        {{ range .Site.Params.social.list }}
+        <li class="list-inline-item mb-lg-0 mr-3">
+            <a class="resume-link" href="{{ .url }}" target="_blank">
+                <i class="{{ .icon }} fa-2x mr-2" data-fa-transform="down-4"></i>
+                <span class="d-none d-lg-inline-block text-muted">{{ .title }}</span>
+            </a>
+        </li>
+        {{ end }}
+    </ul>
+    <br />
 
-                    <ul class="resume-social-list list-inline mx-auto mb-0 d-inline-block text-muted">
-                        {{ range .Site.Params.social.list }}
-                        <li class="list-inline-item mb-lg-0 mr-3">
-                            <a class="resume-link" href="{{ .url }}" target="_blank">
-                                <i class="{{ .icon }} fa-2x mr-2" data-fa-transform="down-4"></i>
-                                <span class="d-none d-lg-inline-block text-muted">{{ .title }}</span>
-                            </a>
-                        </li>
-                        {{ end }}
-                    </ul>
+</div>
+<hr />
 
-                </div><!--//resume-footer-->
+<div class="resume-footer text-center">
+
+    <small class="text-muted">
+        Wyrażam zgodę na przetwarzanie moich danych osobowych dla potrzeb niezbędnych do realizacji procesu rekrutacji
+        (zgodnie z ustawą z dnia 10 maja 2018 roku o ochronie danych osobowych (Dz. Ustaw z 2018, poz. 1000) oraz
+        zgodnie z Rozporządzeniem Parlamentu Europejskiego i Rady (UE) 2016/679 z dnia 27 kwietnia 2016 r. w sprawie
+        ochrony osób fizycznych w związku z przetwarzaniem danych osobowych i w sprawie swobodnego przepływu takich
+        danych oraz uchylenia dyrektywy 95/46/WE (RODO).
+    </small>
+</div>
+<!--//resume-footer-->
