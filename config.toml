@@ -63,30 +63,17 @@ googleAnalytics = "G-B81J6WSQJR"
         [[params.skills.list]]
         title = "Technical"
         [[params.skills.list.items]]
-        details = "JavaScript/Angular/React/Vue"
+        details = "Azure Architect"
         [[params.skills.list.items]]
-        details = "Python/Ruby/PHP"
+        details = "C#/Go/Shell"
         [[params.skills.list.items]]
-        details = "Node.js/ASP.NET"
+        details = "Terraform, Azure DevOps"
         [[params.skills.list.items]]
-        details = "PostgreSQL/MySQL"
+        details = "Cloud Security"
         [[params.skills.list.items]]
-        details = "Object-oriented design"
+        details = "Kubernetes"
         [[params.skills.list.items]]
-        details = "Design and implement database structures"
-        [[params.skills.list.items]]
-        details = "Lead and deliver complex software systems"
-
-        [[params.skills.list]]
-        title = "Professional"
-        [[params.skills.list.items]]
-        details = "Effective communication"
-        [[params.skills.list.items]]
-        details = "Team player"
-        [[params.skills.list.items]]
-        details = "Strong problem solver"
-        [[params.skills.list.items]]
-        details = "Good time management"
+        details = "React/JavaScript"
 
 
 
@@ -169,7 +156,7 @@ googleAnalytics = "G-B81J6WSQJR"
 
     [params.summary]
         enable = true
-        text = "I'm consultant experienced in designing and building modern applications. \n I believe in building simple software which delivers business value. Throughout my career took various roles always trying to challenge myself and improve not only technical aspects but also people skills. Recently working as Software Architect focused on Azure and CI/CD, building secure cloud native integrations."
+        text = "I'm consultant experienced in designing and building modern applications. \n I believe in building simple software which delivers business value. Throughout my career took various roles always trying to challenge myself and improve not only technical aspects but also people skills. Recently working as Software Architect focused on Azure and CI/CD, building secure cloud native applications."
 
 
 
@@ -185,19 +172,30 @@ googleAnalytics = "G-B81J6WSQJR"
         title = "Cloud Solution Architect"
         dates = "Jun 2020 · present"
         company = "Avanade"
-        details = ""
+        details = "Designing and building Integration Platform in Azure for various systems (CRM, ERP and others). Help design networking infrastructure between Azure and OnPrem systems."
+        [[params.experience.list.items]]
+        details = "Implemented Infrastructure as a Code and Pipelines as a Code."
+        [[params.experience.list.items]]
+        details = "Design and implement security features the platform in Azure."
+        [[params.experience.list.items]]
+        details = "Help to design, build and automate infrastructure in Oracle Cloud."
+        [[params.experience.list.items]]
+        details = "Tech: Terraform, Azure Pipelines, Go, C#, Azure (Event Grid, App Gateway, Functions, API Management), Shell, Oracle Cloud Infrastructure"
 
         [[params.experience.list]]
         title = "SISA Architect"
         dates = "Jan 2022 · present"
         company = "Avanade"
-        details = ""
+        details = "Supporting Sales team with Technical Solution, providing estimates and work plan based on requirements."
+
 
         [[params.experience.list]]
         title = "Frontend Developer"
         dates = "Mar 2020 · May 2020"
         company = "Avanade"
-        details = ""
+        details = "Developer in project which automates projects built around Dynamics 365 and Azure. Provisioning new environments and the setup of tenants with CI/CD. Managing existing D365CE tenants. Install and update asset solutions. Build several components in React for existing web application."
+        [[params.experience.list.items]]
+        details = "Tech: Fluent UI, Redux, Thunk, TypeScript, React Functional Components."
 
         [[params.experience.list]]
         title = "Project Lead/Tech Lead"
@@ -205,15 +203,15 @@ googleAnalytics = "G-B81J6WSQJR"
         company = "Avanade"
         details = "One of the world's largest pharmaceutical companies. The company develops and produces medicines and vaccines for a wide range of medical disciplines. Client engaged Avanade to build multiple applications for the Operations Centers which enable digital collaboration, standardization of manufacturing processes and provide insights into those."
         [[params.experience.list.items]]
-        details = "Managing team of 20+ developers and QAs"
+        details = "Managing team of 20+ developers and QAs."
         [[params.experience.list.items]]
-        details = "Helping shaping priorities and lead successful delivery, helping improving processes"
+        details = "Helping shaping priorities and lead successful delivery, helping improving processes."
         [[params.experience.list.items]]
-        details = "Helping shaping and execute microservice architecture"
+        details = "Helping shaping and execute microservice architecture."
         [[params.experience.list.items]]
-        details = "Proposing technologies, tools and frameworks, helping client optimize infrastructure costs"
+        details = "Proposing technologies, tools and frameworks, helping client optimize infrastructure costs."
         [[params.experience.list.items]]
-        details = "Creating and improving continues integration and continues development for application and services"
+        details = "Creating and improving continues integration and continues development for application and services."
         [[params.experience.list.items]]
         details = "Azure DevOps, Docker, Kubernetes, C#, .NET Core, Git, PowerShell, awk"
         
@@ -223,15 +221,15 @@ googleAnalytics = "G-B81J6WSQJR"
         company = "Avanade"
         details = "One of the world's largest pharmaceutical companies. The company develops and produces medicines and vaccines for a wide range of medical disciplines. Client engaged Avanade to build multiple applications for the Operations Centers which enable digital collaboration, standardization of manufacturing processes and provide insights into those."
         [[params.experience.list.items]]
-        details = "Leading team of 5+ developers and QAs"
+        details = "Leading team of 5+ developers and QAs."
         [[params.experience.list.items]]
-        details = "Discussing team priorities, shaping sprints, monitoring and reporting progress, requirements clarification, helping improving processes"
+        details = "Discussing team priorities, shaping sprints, monitoring and reporting progress, requirements clarification, helping improving processes."
         [[params.experience.list.items]]
-        details = "Shaping and execute microservice architecture"
+        details = "Shaping and execute microservice architecture."
         [[params.experience.list.items]]
-        details = "Helping picking up tools and frameworks for project"
+        details = "Helping picking up tools and frameworks for project."
         [[params.experience.list.items]]
-        details = "Creating and improving continues integration and continues development for application and services"
+        details = "Creating and improving continues integration and continues development for application and services."
         [[params.experience.list.items]]
         details = "Tech: C#, .NET Core, Azure DevOps, Docker, Kubernetes, Git, PowerShell, XUnit, NSubstitute, UWP"
 
@@ -269,9 +267,9 @@ googleAnalytics = "G-B81J6WSQJR"
         [[params.experience.list.items]]
         details = "Optimized build and deployment process with our application and decrease time from commit to deploy to environment."
         [[params.experience.list.items]]
-        details = "Implementated and maintenaned Addin for Excel which allowed to retrieve data from REST service."
+        details = "Implemented and maintained Addin for Excel which allowed to retrieve data from REST service."
         [[params.experience.list.items]]
-        details = "Designed and implementated authorization in framework used in several WCF services"
+        details = "Designed and implemented authorization in framework used in several WCF services"
         [[params.experience.list.items]]
         details = "Tech: C#, .NET 4.0, NUnit, Rhino Mocks, Entity Framework, Tibco EMS, WCF, SQL Server 2008, SASS"
 
